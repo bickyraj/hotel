@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	padding:0;
+    font-family: 'Open Sans', sans-serif;
+	-webkit-appearance:none;
+	background: #444;
+	color: #333333;
+	font-weight: normal;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.logo-text {
+	text-align: center;
+	font-size: 2em;
+	color: #ffffff;
+	padding: 3em 0em .8em;
+}
+.login-form {
+    background-color: #fff;
+    width: 360px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: hidden;
+}
+.login-form ul {
+	padding: 0px;
+	margin: 0px;
+}
+.login-form ul li {
+	list-style: none;
+	width: 100%;
+	margin: 0 0 7px;
+}
+.login-form ul li h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.login-form ul li input[type="text"],.login-form ul li input[type="password"] {
+	width: 100%;
+	height: 30px;
+	padding: 0 0 0 5px;
+}
+.login-form ul li input[type="text"]:focus,.login-form ul li input[type="password"]:focus {
+	border: 1px solid #00adf1;
+}
+.login-form ul li input[type="submit"] {
+	background: #00adf1;
+	color: #ffffff;
+	border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    outline: none !important;
+    float: right;
+    margin-top: 13px;
+    text-transform: uppercase;
+}
+.login-form ul li input[type="submit"]:hover {
+	background: #0689BD;
+	cursor: pointer;
+}
+
